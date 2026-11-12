@@ -170,3 +170,9 @@ editor: visual
 ## References
 
 Baron, R. M., & Kenny, D. A. (1986). The moderator-mediator variable distinction in social psychological research: Conceptual, strategic, and statistical considerations. *Journal of Personality and Social Psychology, 51*(6), 1173–1182. https://doi.org/10.1037/0022-3514.51.6.1173
+
+## Appendix
+
+- [GitHub Repo](https://github.com/itsnik1/M11-Note-taking-mediator-moderator)
+
+- GH Pages
