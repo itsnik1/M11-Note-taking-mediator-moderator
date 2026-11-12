@@ -1,0 +1,172 @@
+---
+title: "M11-Note-taking-mediator-moderator"
+author: "Nik Sahami"
+date: today
+format: 
+  html:
+    toc: true
+    toc-depth: 3
+    embed-resources: true
+editor: visual
+---
+
+# The Moderator-Mediator Variable Distinction
+
+**Baron & Kenny (1986)**
+
+- Main purpose: Distinguish between moderator and mediator variables
+  - Moderators: When or under what conditions an effect occurs
+  - Mediators: How or why an effect occurs
+- Different functions, research designs, and statistical methods
+- Important for understanding relationships between variables
+
+## The Nature of Moderators
+
+- Moderator: Variable affecting the strength or direction of a relationship between X and Y
+  - Categorical: Gender, race, groups
+  - Continuous: Age, reward level
+- Identified through interaction effects
+  - Effect of X on Y depends on the moderator
+  - Significant interaction = Evidence of moderation
+- Example: Stressful life events and illness
+  - Stronger relationship for uncontrollable events
+  - Weaker relationship for controllable events
+- Useful for identifying when relationships are strongest or weakest
+
+## Toward Establishing an Analytic Framework for Testing Moderator Effects
+
+- Three paths in the moderator model
+  - Predictor -\> Outcome
+  - Moderator -\> Outcome
+  - Predictor x Moderator -\> Outcome
+- Interaction term = Main focus
+  - Significant interaction supports moderation
+  - Main effects alone don't establish moderation
+- Ideally, moderator independent of predictor and outcome
+  - Easier interpretation of interaction effects
+
+## Choosing an Appropriate Analytic Procedure: Testing Moderation
+
+- Method depends on variable types
+  - Both categorical: 2 x 2 ANOVA
+  - Categorical moderator, continuous X: Compare regression slopes
+  - Continuous moderator, categorical X: Regression with interaction term
+  - Both continuous: Regression with interaction term
+- Regression model: Y = X + Z + XZ
+  - X = Independent variable
+  - Z = Moderator
+  - XZ = Interaction
+  - Significant XZ = Evidence of moderation
+- Possible interaction patterns
+  - Linear: Gradual change
+  - Quadratic: Curved relationship
+  - Step: Sudden change at a certain point
+- Unstandardized regression coefficients preferred over correlations
+- Measurement error can reduce ability to detect interactions
+
+## The Nature of Mediator Variables
+
+- Mediator: Variable explaining the process connecting X and Y
+- Causal chain: X -\> Mediator -\> Y
+  - X affects mediator
+  - Mediator affects Y
+- Focus on underlying mechanism rather than conditions
+- Example: Stress -\> Reduced perceived control -\> Lower performance
+
+## General Analytic Considerations
+
+- Three paths in mediation model
+  - Path a: X -\> Mediator
+  - Path b: Mediator -\> Y
+  - Path c: X -\> Y
+- Complete mediation
+  - Direct effect disappears after controlling for mediator
+- Partial mediation
+  - Direct effect decreases but remains
+- Partial mediation often more realistic
+  - Outcomes typically influenced by multiple factors
+
+## Testing Mediation
+
+- Three regression equations
+  1.  Mediator predicted by X
+  2.  Y predicted by X
+  3.  Y predicted by X and mediator
+- Requirements for mediation
+  - Significant X -\> Mediator
+  - Significant X -\> Y
+  - Significant Mediator -\> Y controlling for X
+  - Reduced X -\> Y effect after adding mediator
+- Sobel test: Significance of indirect effect (a x b)
+- Potential issues
+  - Measurement error in mediator
+  - Multicollinearity between X and mediator
+  - Possible reverse causality between mediator and outcome
+- Structural equation modeling (SEM)
+  - Multiple paths tested simultaneously
+  - Better handling of measurement error
+
+## Overview of Conceptual Distinctions Between Moderators and Mediators
+
+- Moderators: Conditions affecting a relationship
+- Mediators: Processes explaining a relationship
+- Moderator research
+  - Often used for weak or inconsistent relationships
+  - Focus on differences across groups or situations
+- Mediator research
+  - Often used for established relationships
+  - Focus on explaining causal mechanisms
+
+## Strategic Considerations
+
+- Moderators useful when effects vary across groups or settings
+- Mediators useful when trying to explain an existing effect
+- Moderator findings can suggest potential mediators
+  - Differences between groups may reveal underlying processes
+- Mediator findings can suggest interventions
+  - Changing the mechanism to influence outcomes
+
+## Operational Implications
+
+- Different research requirements for each variable type
+- Moderation
+  - Manipulate or measure conditions
+  - Test interaction effects
+- Mediation
+  - Measure proposed mechanism
+  - Test relationships between X, mediator, and Y
+- Example: Personal control
+  - Manipulated control: Potential moderator
+  - Perceived control: Potential mediator
+- Experimental differences alone not enough to establish mediation
+
+## A Framework for Combining Mediation and Moderation
+
+- Both effects can exist in the same model
+- Example: Stress, control, perceived control, and performance
+- Three-step analysis
+  1.  Test effects of stress, control, and their interaction
+  2.  Add perceived control to examine mediation
+  3.  Test interaction between stress and perceived control
+- Mediated moderation
+  - Mediator explains an interaction effect
+- Moderated mediation
+  - Mediation effect differs across conditions
+- Combined approach: Both conditions and underlying mechanisms
+
+## Implications and Applications of the Moderator-Mediator Distinction
+
+- Personal control
+  - May moderate effects of stress on performance
+  - Perceived control may mediate those effects
+- Behavioral intentions
+  - Intentions as mediator between attitudes and behavior
+  - Other variables may moderate intentions -\> Behavior
+- Personality traits and attitudes
+  - Not always consistent predictors of behavior
+  - Moderators identify when prediction improves
+  - Mediators explain processes connecting traits to behavior
+
+## References
+
+Baron, R. M., & Kenny, D. A. (1986). The moderator-mediator variable distinction in social psychological research: Conceptual, strategic, and statistical considerations. *Journal of Personality and Social Psychology, 51*(6), 1173–1182. https://doi.org/10.1037/0022-3514.51.6.1173
