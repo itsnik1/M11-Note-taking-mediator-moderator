@@ -175,4 +175,4 @@ Baron, R. M., & Kenny, D. A. (1986). The moderator-mediator variable distinction
 
 - [GitHub Repo](https://github.com/itsnik1/M11-Note-taking-mediator-moderator)
 
-- GH Pages
+- [GH Pages](https://itsnik1.github.io/M11-Note-taking-mediator-moderator/)
